@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Welcome to Tic-Tac-Toe!");
         printBoard(game.getBoard());
 
-        // Main game loop
+         // Main game loop
         while (game.isGameActive()) {
             char currentPlayer = game.getCurrentPlayer();
             System.out.println("\nPlayer " + currentPlayer + "'s turn.");
